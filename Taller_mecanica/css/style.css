@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  #3a3d47;
+    font-family: Verdana;
+}
+.contenido{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+.navegacion{
+    background:  #1551a1;
+    display: flex;
+}
+.logo{
+    width: 220px;
+    float: left;
+    padding: 35px;
+}
+.navegacion ul{
+    list-style-type: none;
+    padding: 50px;
+    float: left;
+}
+.navegacion ul li{
+    float: left;
+}
+.navegacion ul li a{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 20px;
+}
+.imagenfondo img{
+    width: 100%;
+}
+h1{
+    color: #ff7600;
+    text-align: center;
+    padding: 25px;
+}
+.servicios{
+    overflow: hidden;
+    text-align: center;
+}    
+.servicios .card{
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid #000;
+}
+.contenidoservi h2{
+    background-color: #1551a1;
+    color: white;
+    padding: 15px 0;
+}
+.contenidoservi p{
+    padding: 10px;
+    text-align: justify;
+}
+button{
+    background: #1551a1;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Verdana;
+}
+.footer{
+    background: #062348;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer .logofooter{
+    padding: 5px;
+    margin-left: 200px;
+}
+.footer p{
+    color: white;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.redes{
+    flex: 0 0 40%;
+    margin-left: 100px;
+}
+.redes p{
+    font-weight: bold;
+}
+.redes img{
+    margin-top: 20px;
+}
